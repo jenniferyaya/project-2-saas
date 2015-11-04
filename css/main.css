@@ -23,3 +23,15 @@ font: normal 100%/1.3 Signika, sans-serif;
 	border: solid 3em #000;
 	width: 75%;
 }
+
+
+/*----- Banner -----*/
+
+.banner-div {
+	position: relative;
+}
+
+.banner-content {
+	position: absolute;
+	top: 90px;
+}
