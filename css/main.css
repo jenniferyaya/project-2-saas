@@ -24,6 +24,14 @@ background-color: rgba(145, 178, 211, .10);
 	color: #fff;
 }
 
+.type-color {
+	color: #d4612b;
+}
+
+
+
+
+
 /*----- Banner -----*/
 
 .banner-div {
@@ -112,6 +120,26 @@ a {
 }
 
 
-/*----------- Large Screen ------*/
+/*----------- Large Screen 900px ------*/
 
-@media
+@media only screen and (min-width: 56em) {
+
+	.nav-label {
+		display: none;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 61px;
+		left: 500px;
+	}
+
+	.nav-li {
+		float: left;
+		padding-left: 1em;
+	}
+
+
+
+}
