@@ -20,6 +20,20 @@ background-color: rgba(145, 178, 211, .10);
 	background-color: #fff;
 }
 
+.type-w {
+	color: #fff;
+}
+
+/*----- Banner -----*/
+
+.banner-div {
+	position: relative;
+}
+
+.banner-content {
+	position: absolute;
+	top: 90px;
+}
 
 
 /*-------- Logo  ----------*/
@@ -27,7 +41,6 @@ background-color: rgba(145, 178, 211, .10);
 .logotype {
 	width: 25%;
 }
-
 
 /*-----Toggle Navigation -------*/
 
@@ -90,24 +103,6 @@ a {
 	display: block;
 }
 
-
-
-/*----- Banner -----*/
-
-.banner-div {
-	position: relative;
-}
-
-.banner-content {
-	position: absolute;
-	top: 90px;
-}
-
-/*----------- Buttons -----------*/
-
-
-
-
 /*----- Social Media Buttons -------*/
 
 
@@ -115,3 +110,8 @@ a {
 	background-image: url("../img/facebook.svg");
 	background-size: contain;
 }
+
+
+/*----------- Large Screen ------*/
+
+@media
