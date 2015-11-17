@@ -131,6 +131,10 @@ a {
 
 @media only screen and (min-width: 42em) {
 
+	html {
+		font-size: 110%;
+	}
+
 	.nav-label {
 		display: none;
 	}
@@ -139,17 +143,211 @@ a {
 		display: inline-block;
 		position: relative;
 		bottom: 31px;
-		left: 365px;
+		left: 335px;
 	}
 
 	.nav-li {
 		float: left;
-		padding-left: 1em;
 	}
 
 	h1 {
 		margin: 0;
 		padding-top: 0;
+	}
+
+}
+
+
+
+/*----------- Med. 764px The Base ------*/
+
+@media only screen and (min-width: 46em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 375px;
+	}
+
+}
+
+/*----------- Med. 832px The Base ------*/
+
+@media only screen and (min-width: 52em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 425px;
+	}
+
+}
+
+/*----------- Med. 844px The Base ------*/
+
+@media only screen and (min-width: 53em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 445px;
+	}
+
+}
+
+/*----------- Med. 897px The Base ------*/
+
+@media only screen and (min-width: 56em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 525px;
+	}
+
+}
+
+/*----------- Med. 960px The Base ------*/
+
+@media only screen and (min-width: 60em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 575px;
+	}
+
+	.nav-li {
+		float: left;
+	}
+
+}
+
+
+/*----------- Lrg. 1015px The Base ------*/
+
+@media only screen and (min-width: 62em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 620px;
+	}
+
+}
+
+/*----------- Lrg. 1045px The Base ------*/
+
+@media only screen and (min-width: 64em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 700px;
+	}
+
+}
+
+/*----------- Lrg. 1160px The Base ------*/
+
+@media only screen and (min-width: 71em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 750px;
+	}
+
+}
+
+/*----------- Lrg. 1260px The Base ------*/
+
+@media only screen and (min-width: 77em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 805px;
+	}
+
+}
+
+/*----------- Lrg. 1330px The Base ------*/
+
+@media only screen and (min-width: 83em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 855px;
+	}
+
+}
+
+
+/*----------- Lrg. 1430px The Base ------*/
+
+@media only screen and (min-width: 88em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 1020px;
 	}
 
 }
