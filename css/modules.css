@@ -387,16 +387,17 @@ svg {
 
 .btn {
   display: inline-block;
-  padding: 0.375em 0.75em 0.42em;
-  background-color: #333;
-  border-radius: 8px;
+  padding: 0.375em 0.75em 0.42em 0.575em;
+  background-color: #d4612b;
+  border-radius: 10px;
   border: 0;
   color: #fff;
   text-decoration: none;
+  margin-left: 2em;
 }
 
 .btn:hover {
-  background-color: #000;
+  background-color: #91b2d3;
   color: #fff;
 }
 

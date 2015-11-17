@@ -5,31 +5,33 @@ background-color: rgba(145, 178, 211, .10);
 
 /*----------- Design ------------*/
 
-.border {
-	border: solid .25em #91b2d3;
-	border-radius: 10px;
-}
 
 .horizontal-rule {
 	margin: 0 auto;
 	border: solid 3em #000;
 	width: 75%;
+	color: #91b2d3;
 }
 
 .box-w {
 	background-color: #fff;
 }
 
-.type-w {
+.hero-type {
 	color: #fff;
 }
 
-.type-color {
+.litt-c {
 	color: #d4612b;
 }
 
+.copy {
+	color: #4e4e50;
+}
 
-
+.header {
+	color: #363436;
+}
 
 
 /*----- Banner -----*/
@@ -97,6 +99,11 @@ background-color: rgba(145, 178, 211, .10);
 	position: absolute;
 	left: 0px;
 	width: 100%;
+	background-color: #fff;
+}
+
+nav ul {
+	float: right;
 }
 
 a {
@@ -110,6 +117,7 @@ a {
 .nav-check:checked ~ .nav {
 	display: block;
 }
+
 
 /*----- Social Media Buttons -------*/
 
