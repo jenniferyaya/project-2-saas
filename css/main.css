@@ -372,20 +372,42 @@ a {
 
 @media print {
 
-	.hero-img {
+	.banner-img {
 		display: none;
 	}
 
 	.hero-type {
 		color: #000;
+		position: relative;
+		bottom: 210px;
+		left: 180px;
 	}
 
-	h3 {
+	.text-center {
 		text-align: left;
 	}
 
-.nav-label {
-	display: inline;
+	.nav-label {
+		display: none;
+	}
+
+	.btn {
+		display: none;
 }
 
+	.img-flex {
+		display: none;
+}
+
+	.header {
+		color: #000;
+	}
+
+	.copy {
+		color: #000;
+	}
+
+	.footer-p {
+		display: none;
+	}
 }
