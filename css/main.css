@@ -119,11 +119,20 @@ a {
 	background-size: contain;
 }
 
+.i-vimeo {
+	background-image: url("../img/vimeo.svg");
+	background-size: contain;
+}
 
+.i-twitter {
+	background-image: url("../img/twitter.svg");
+	background-size: contain;
+}
 
-
-
-
+.i-insta {
+	background-image: url("../img/instagram.svg");
+	background-size: contain;
+}
 
 
 
@@ -159,6 +168,10 @@ a {
 
 
 
+
+
+
+
 /*----------- Med. 764px The Base ------*/
 
 @media only screen and (min-width: 46em) {
@@ -176,7 +189,7 @@ a {
 
 }
 
-/*----------- Med. 832px The Base ------*/
+/*----------- Med. 832px ------*/
 
 @media only screen and (min-width: 52em) {
 
@@ -193,7 +206,7 @@ a {
 
 }
 
-/*----------- Med. 844px The Base ------*/
+/*----------- Med. 844px -----*/
 
 @media only screen and (min-width: 53em) {
 
@@ -210,7 +223,7 @@ a {
 
 }
 
-/*----------- Med. 897px The Base ------*/
+/*----------- Med. 897px -----*/
 
 @media only screen and (min-width: 56em) {
 
@@ -227,7 +240,7 @@ a {
 
 }
 
-/*----------- Med. 960px The Base ------*/
+/*----------- Med. 960px -----*/
 
 @media only screen and (min-width: 60em) {
 
@@ -249,7 +262,7 @@ a {
 }
 
 
-/*----------- Lrg. 1015px The Base ------*/
+/*----------- Lrg. 1015px -----*/
 
 @media only screen and (min-width: 62em) {
 
@@ -266,7 +279,7 @@ a {
 
 }
 
-/*----------- Lrg. 1045px The Base ------*/
+/*----------- Lrg. 1045px------*/
 
 @media only screen and (min-width: 64em) {
 
@@ -283,7 +296,7 @@ a {
 
 }
 
-/*----------- Lrg. 1160px The Base ------*/
+/*----------- Lrg. 1160px ------*/
 
 @media only screen and (min-width: 71em) {
 
@@ -300,7 +313,7 @@ a {
 
 }
 
-/*----------- Lrg. 1260px The Base ------*/
+/*----------- Lrg. 1260px ------*/
 
 @media only screen and (min-width: 77em) {
 
@@ -317,7 +330,7 @@ a {
 
 }
 
-/*----------- Lrg. 1330px The Base ------*/
+/*----------- Lrg. 1330px ------*/
 
 @media only screen and (min-width: 83em) {
 
@@ -335,7 +348,7 @@ a {
 }
 
 
-/*----------- Lrg. 1430px The Base ------*/
+/*----------- Lrg. 1430px ------*/
 
 @media only screen and (min-width: 88em) {
 
@@ -349,5 +362,30 @@ a {
 		bottom: 31px;
 		left: 1020px;
 	}
+
+}
+
+
+
+
+/*----------- Print view ------*/
+
+@media print {
+
+	.hero-img {
+		display: none;
+	}
+
+	.hero-type {
+		color: #000;
+	}
+
+	h3 {
+		text-align: left;
+	}
+
+.nav-label {
+	display: inline;
+}
 
 }
