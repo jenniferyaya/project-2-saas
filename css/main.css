@@ -135,6 +135,52 @@ a {
 }
 
 
+/*----------- XSml. 240px ------*/
+
+@media only screen and (min-width: 14em) {
+
+	html {
+		font-size: 70%;
+	}
+
+	h2 {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 80px;
+	}
+
+	.hero-h3 {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 70px;
+	}
+
+		.hero-btn {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 50px;
+	}
+}
+
+
+
+
+
+
+/*----------- Sml. 320px ------*/
+
+@media only screen and (min-width: 20em) {
+
+	html {
+		font-size: 90%;
+	}
+
+}
+
+
 
 /*----------- Med. 672px The Base ------*/
 
@@ -166,40 +212,23 @@ a {
 
 }
 
-
-
-
-
-
-
-/*----------- Med. 764px The Base ------*/
+/*----------- Med. 764px ------*/
 
 @media only screen and (min-width: 46em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 375px;
 	}
 
 }
 
-/*----------- Med. 832px ------*/
+/*----------- Med.. 832px ------*/
 
 @media only screen and (min-width: 52em) {
 
-	html {
-		font-size: 120%;
-	}
 
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 425px;
 	}
@@ -210,13 +239,7 @@ a {
 
 @media only screen and (min-width: 53em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 445px;
 	}
@@ -227,13 +250,7 @@ a {
 
 @media only screen and (min-width: 56em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 525px;
 	}
@@ -249,8 +266,6 @@ a {
 	}
 
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 575px;
 	}
@@ -266,13 +281,7 @@ a {
 
 @media only screen and (min-width: 62em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 620px;
 	}
@@ -283,13 +292,7 @@ a {
 
 @media only screen and (min-width: 64em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 700px;
 	}
@@ -300,47 +303,31 @@ a {
 
 @media only screen and (min-width: 71em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 750px;
 	}
 
 }
 
+
 /*----------- Lrg. 1260px ------*/
 
 @media only screen and (min-width: 77em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 805px;
 	}
 
 }
 
-/*----------- Lrg. 1330px ------*/
 
-@media only screen and (min-width: 83em) {
+/*----------- Lrg. 1320px ------*/
 
-	html {
-		font-size: 120%;
-	}
+@media only screen and (min-width: 82em) {
 
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 855px;
 	}
@@ -348,24 +335,261 @@ a {
 }
 
 
+/*----------- Lrg. 1330px ------*/
+
+@media only screen and (min-width: 83em) {}
+
+	.nav {
+		bottom: 31px;
+		left: 900px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 1360px ------*/
+
+@media only screen and (min-width: 85em) {}
+
+	.nav {
+		bottom: 31px;
+		left: 990px;
+	}
+
+}
+
 /*----------- Lrg. 1430px ------*/
 
 @media only screen and (min-width: 88em) {
 
-	html {
-		font-size: 120%;
-	}
-
 	.nav {
-		display: inline-block;
-		position: relative;
 		bottom: 31px;
 		left: 1020px;
 	}
 
 }
 
+/*----------- Lrg. 1470px ------*/
 
+@media only screen and (min-width: 91em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 1030px;
+	}
+
+}
+
+/*----------- Lrg. 1520px ------*/
+
+@media only screen and (min-width: 95em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1120px;
+	}
+
+}
+
+/*----------- Lrg. 1570px ------*/
+
+@media only screen and (min-width: 98em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1190px;
+	}
+
+}
+
+/*----------- Lrg. 1690px ------*/
+
+@media only screen and (min-width: 98em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1290px;
+	}
+
+}
+
+
+/*----------- Lrg. 1730px ------*/
+
+@media only screen and (min-width: 107em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1350px;
+	}
+
+}
+
+
+/*----------- Lrg. 1820px ------*/
+
+@media only screen and (min-width: 112em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1450px;
+	}
+
+}
+
+/*----------- Lrg. 1920px ------*/
+
+@media only screen and (min-width: 119em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1550px;
+	}
+
+}
+
+/*----------- Lrg. 2050px ------*/
+
+@media only screen and (min-width: 127em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1650px;
+	}
+
+}
+
+/*----------- Lrg. 2120px ------*/
+
+@media only screen and (min-width: 131em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1750px;
+	}
+
+}
+
+/*----------- Lrg. 2150px ------*/
+
+@media only screen and (min-width: 133em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1800px;
+	}
+
+}
+
+/*----------- Lrg. 2220px ------*/
+
+@media only screen and (min-width: 133em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1860px;
+	}
+
+}
+
+
+/*----------- Lrg. 2260px ------*/
+
+@media only screen and (min-width: 139em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1930px;
+	}
+
+}
+
+/*----------- Lrg. 2300px ------*/
+
+@media only screen and (min-width: 142em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1950px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 2320px ------*/
+
+@media only screen and (min-width: 144em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1980px;
+	}
+
+}
+
+/*----------- Lrg. 2330px ------*/
+
+@media only screen and (min-width: 145em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1990px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 2390px ------*/
+
+@media only screen and (min-width: 148em) {
+
+	.nav {
+		bottom: 31px;
+		left: 2005px;
+	}
+
+}
+
+
+/*----------- Lrg. 2430px ------*/
+
+@media only screen and (min-width: 150em) {
+
+	.nav {
+		bottom: 31px;
+		left: 2000px;
+	}
+
+}
+
+
+/*----------- Lrg. 2450px ------*/
+
+@media only screen and (min-width: 152em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 2020px;
+	}
+
+}
+
+/*----------- Lrg. 2460px ------*/
+
+@media only screen and (min-width: 153em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 2120px;
+	}
+
+}
 
 
 /*----------- Print view ------*/
