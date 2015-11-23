@@ -1,0 +1,641 @@
+html {
+font: normal 100%/1.3 Signika, sans-serif;
+background-color: rgba(145, 178, 211, .10);
+}
+
+/*----------- Design ------------*/
+
+.box-w {
+	background-color: #fff;
+}
+
+.hero-type {
+	color: #fff;
+}
+
+.litt-c {
+	color: #d4612b;
+}
+
+.copy {
+	color: #4e4e50;
+}
+
+.header {
+	color: #363436;
+}
+
+
+/*----- Banner -----*/
+
+.banner-div {
+	position: relative;
+}
+
+.banner-content {
+	position: absolute;
+	top: 90px;
+}
+
+
+/*-------- Logo  ----------*/
+
+.logotype {
+	width: 25%;
+}
+
+/*-----Toggle Navigation -------*/
+
+.nav {
+	display: none;
+}
+
+.nav-check{
+	position: absolute;
+	top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+.nav-label {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 30px;
+	width: 50px;
+}
+
+.nav-open,
+.nav-close {
+	display: block;
+	width: 100%;
+}
+
+.nav-close {
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+	display: block;
+}
+
+.nav {
+	display: none;
+	z-index: 10;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	background-color: #fff;
+}
+
+nav ul {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.nav a:hover {
+	color: #91b2d3;
+}
+
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+/*----- Buttons ---------*/
+
+
+
+
+/*----- Social Media Buttons -------*/
+
+
+.i-facebook {
+	background-image: url("../img/facebook.svg");
+	background-size: contain;
+}
+
+.i-vimeo {
+	background-image: url("../img/vimeo.svg");
+	background-size: contain;
+}
+
+.i-twitter {
+	background-image: url("../img/twitter.svg");
+	background-size: contain;
+}
+
+.i-insta {
+	background-image: url("../img/instagram.svg");
+	background-size: contain;
+}
+
+
+/*----------- XSml. 240px ------*/
+
+@media only screen and (min-width: 14em) {
+
+	html {
+		font-size: 70%;
+	}
+
+	h2 {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 80px;
+	}
+
+	.hero-h3 {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 70px;
+	}
+
+		.hero-btn {
+		margin: 0;
+		padding-top: 0;
+		position: relative;
+		bottom: 50px;
+	}
+}
+
+
+
+
+
+
+/*----------- Sml. 320px ------*/
+
+@media only screen and (min-width: 20em) {
+
+	html {
+		font-size: 90%;
+	}
+
+}
+
+
+
+/*----------- Med. 672px The Base ------*/
+
+@media only screen and (min-width: 42em) {
+
+	html {
+		font-size: 110%;
+	}
+
+	.nav-label {
+		display: none;
+	}
+
+	.nav {
+		display: inline-block;
+		position: relative;
+		bottom: 31px;
+		left: 335px;
+	}
+
+	.nav-li {
+		float: left;
+	}
+
+	h1 {
+		margin: 0;
+		padding-top: 0;
+	}
+
+}
+
+/*----------- Med. 764px ------*/
+
+@media only screen and (min-width: 46em) {
+
+	.nav {
+		bottom: 31px;
+		left: 375px;
+	}
+
+}
+
+/*----------- Med.. 832px ------*/
+
+@media only screen and (min-width: 52em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 425px;
+	}
+
+}
+
+/*----------- Med. 844px -----*/
+
+@media only screen and (min-width: 53em) {
+
+	.nav {
+		bottom: 31px;
+		left: 445px;
+	}
+
+}
+
+/*----------- Med. 897px -----*/
+
+@media only screen and (min-width: 56em) {
+
+	.nav {
+		bottom: 31px;
+		left: 525px;
+	}
+
+}
+
+/*----------- Med. 960px -----*/
+
+@media only screen and (min-width: 60em) {
+
+	html {
+		font-size: 120%;
+	}
+
+	.nav {
+		bottom: 31px;
+		left: 575px;
+	}
+
+	.nav-li {
+		float: left;
+	}
+
+}
+
+
+/*----------- Lrg. 1015px -----*/
+
+@media only screen and (min-width: 62em) {
+
+	.nav {
+		bottom: 31px;
+		left: 620px;
+	}
+
+}
+
+/*----------- Lrg. 1045px------*/
+
+@media only screen and (min-width: 64em) {
+
+	.nav {
+		bottom: 31px;
+		left: 700px;
+	}
+
+}
+
+/*----------- Lrg. 1160px ------*/
+
+@media only screen and (min-width: 71em) {
+
+	.nav {
+		bottom: 31px;
+		left: 750px;
+	}
+
+}
+
+
+/*----------- Lrg. 1260px ------*/
+
+@media only screen and (min-width: 77em) {
+
+	.nav {
+		bottom: 31px;
+		left: 805px;
+	}
+
+}
+
+
+/*----------- Lrg. 1320px ------*/
+
+@media only screen and (min-width: 82em) {
+
+	.nav {
+		bottom: 31px;
+		left: 855px;
+	}
+
+}
+
+
+/*----------- Lrg. 1330px ------*/
+
+@media only screen and (min-width: 83em) {}
+
+	.nav {
+		bottom: 31px;
+		left: 900px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 1360px ------*/
+
+@media only screen and (min-width: 85em) {}
+
+	.nav {
+		bottom: 31px;
+		left: 990px;
+	}
+
+}
+
+/*----------- Lrg. 1430px ------*/
+
+@media only screen and (min-width: 88em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1020px;
+	}
+
+}
+
+/*----------- Lrg. 1470px ------*/
+
+@media only screen and (min-width: 91em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 1030px;
+	}
+
+}
+
+/*----------- Lrg. 1520px ------*/
+
+@media only screen and (min-width: 95em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1120px;
+	}
+
+}
+
+/*----------- Lrg. 1570px ------*/
+
+@media only screen and (min-width: 98em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1190px;
+	}
+
+}
+
+/*----------- Lrg. 1690px ------*/
+
+@media only screen and (min-width: 98em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1290px;
+	}
+
+}
+
+
+/*----------- Lrg. 1730px ------*/
+
+@media only screen and (min-width: 107em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1350px;
+	}
+
+}
+
+
+/*----------- Lrg. 1820px ------*/
+
+@media only screen and (min-width: 112em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1450px;
+	}
+
+}
+
+/*----------- Lrg. 1920px ------*/
+
+@media only screen and (min-width: 119em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1550px;
+	}
+
+}
+
+/*----------- Lrg. 2050px ------*/
+
+@media only screen and (min-width: 127em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1650px;
+	}
+
+}
+
+/*----------- Lrg. 2120px ------*/
+
+@media only screen and (min-width: 131em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1750px;
+	}
+
+}
+
+/*----------- Lrg. 2150px ------*/
+
+@media only screen and (min-width: 133em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1800px;
+	}
+
+}
+
+/*----------- Lrg. 2220px ------*/
+
+@media only screen and (min-width: 133em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1860px;
+	}
+
+}
+
+
+/*----------- Lrg. 2260px ------*/
+
+@media only screen and (min-width: 139em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1930px;
+	}
+
+}
+
+/*----------- Lrg. 2300px ------*/
+
+@media only screen and (min-width: 142em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1950px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 2320px ------*/
+
+@media only screen and (min-width: 144em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1980px;
+	}
+
+}
+
+/*----------- Lrg. 2330px ------*/
+
+@media only screen and (min-width: 145em) {
+
+	.nav {
+		bottom: 31px;
+		left: 1990px;
+	}
+
+}
+
+
+
+/*----------- Lrg. 2390px ------*/
+
+@media only screen and (min-width: 148em) {
+
+	.nav {
+		bottom: 31px;
+		left: 2005px;
+	}
+
+}
+
+
+/*----------- Lrg. 2430px ------*/
+
+@media only screen and (min-width: 150em) {
+
+	.nav {
+		bottom: 31px;
+		left: 2000px;
+	}
+
+}
+
+
+/*----------- Lrg. 2450px ------*/
+
+@media only screen and (min-width: 152em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 2020px;
+	}
+
+}
+
+/*----------- Lrg. 2460px ------*/
+
+@media only screen and (min-width: 153em) {
+
+
+	.nav {
+		bottom: 31px;
+		left: 2120px;
+	}
+
+}
+
+
+/*----------- Print view ------*/
+
+@media print {
+
+	.banner-img {
+		display: none;
+	}
+
+	.hero-type {
+		color: #000;
+		position: relative;
+		bottom: 210px;
+		left: 180px;
+	}
+
+	.text-center {
+		text-align: left;
+	}
+
+	.nav-label {
+		display: none;
+	}
+
+	.btn {
+		display: none;
+}
+
+	.img-flex {
+		display: none;
+}
+
+	.header {
+		color: #000;
+	}
+
+	.copy {
+		color: #000;
+	}
+
+	.footer-p {
+		display: none;
+	}
+}
