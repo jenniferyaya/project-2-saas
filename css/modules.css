@@ -1,7 +1,7 @@
 /*!
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;buttons;accessibility;print
+ * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;positioning;nice-lists;buttons;forms;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -235,48 +235,9 @@ svg {
   text-decoration: none;
 }
 
-[hidden], .hidden {
-  display: none;
-  visibility: hidden;
-}
-
-.visually-hidden {
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
-.visually-hidden.focusable:active, .visually-hidden.focusable:focus {
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  clip: auto;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
-.truncate {
-  max-width: 100%;
-  overflow: hidden;
-  width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.scrollable {
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clearfix::before, .clearfix::after {
@@ -380,6 +341,37 @@ svg {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "·";
+  float: left;
+  margin-left: -1.6em;
+  width: 1.3em;
+  text-align: right;
+}
+
+ol {
+  counter-reset: ol-simple-numbers 20;
+  list-style-type: none;
+}
+
+ol li::before {
+  float: left;
+  margin-left: -1.6em;
+  width: 1.3em;
+  counter-increment: ol-simple-numbers;
+  content: counter(ol-simple-numbers);
+  text-align: right;
+}
+
+.list-group > li::before,
+.list-group-inline > li::before {
+  content: none;
+}
+
 .link-box {
   display: block;
   text-decoration: none;
@@ -387,17 +379,16 @@ svg {
 
 .btn {
   display: inline-block;
-  padding: 0.375em 0.75em 0.42em 0.575em;
+  padding: 0.375em 0.75em 0.42em;
   background-color: #d4612b;
-  border-radius: 30px;
+  border-radius: 8px;
   border: 0;
-  color: #fff;
   text-decoration: none;
-  margin-left: 2em;
+  margin-left: 1.5em;
 }
 
 .btn:hover {
-  background-color: #91b2d3;
+  background-color: #000;
   color: #fff;
 }
 
@@ -420,6 +411,94 @@ svg {
 .btn--ghost:hover {
   border-color: #000;
 }
+
+label, .label-block {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label,
+.label-inline {
+  display: inline-block;
+}
+
+/*!
+ * (c) Nicolas Gallagher and Jonathan Neal of Normalize.css || MIT License
+ *     https://necolas.github.io/normalize.css/
+ */
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+/*! End Normalize.css code */
 
 a:hover, a:active {
   outline: none;

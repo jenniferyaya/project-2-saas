@@ -110,12 +110,6 @@ a {
 	display: block;
 }
 
-/*----- Buttons ---------*/
-
-.a-btn {
-	color: #fff;
-}
-
 
 
 /*----- Social Media Buttons -------*/
@@ -173,10 +167,6 @@ a {
 }
 
 
-
-
-
-
 /*----------- Sml. 320px ------*/
 
 @media only screen and (min-width: 20em) {
@@ -187,8 +177,6 @@ a {
 
 }
 
-
-
 /*----------- Med. 672px The Base ------*/
 
 @media only screen and (min-width: 42em) {
@@ -197,20 +185,6 @@ a {
 		font-size: 110%;
 	}
 
-	.nav-label {
-		display: none;
-	}
-
-	.nav {
-		display: inline-block;
-		position: relative;
-		bottom: 31px;
-		left: 335px;
-	}
-
-	.nav-li {
-		float: left;
-	}
 
 	h1 {
 		margin: 0;
@@ -219,28 +193,6 @@ a {
 
 }
 
-/*----------- Med. 764px ------*/
-
-@media only screen and (min-width: 46em) {
-
-	.nav {
-		bottom: 31px;
-		left: 375px;
-	}
-
-}
-
-/*----------- Med.. 832px ------*/
-
-@media only screen and (min-width: 52em) {
-
-
-	.nav {
-		bottom: 31px;
-		left: 425px;
-	}
-
-}
 
 /*----------- Med. 844px -----*/
 
@@ -253,58 +205,37 @@ a {
 
 }
 
-/*----------- Med. 897px -----*/
+/*----------- Med. 879px -----*/
 
-@media only screen and (min-width: 56em) {
-
-	.nav {
-		bottom: 31px;
-		left: 525px;
-	}
-
-}
-
-/*----------- Med. 960px -----*/
-
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 54em) {
 
 	html {
 		font-size: 120%;
 	}
 
+		.nav-label {
+		display: none;
+	}
+
 	.nav {
+		display: inline-block;
+		position: relative;
 		bottom: 31px;
-		left: 575px;
+		left: 45px;
 	}
 
 	.nav-li {
 		float: left;
 	}
 
-}
-
-
-/*----------- Lrg. 1015px -----*/
-
-@media only screen and (min-width: 62em) {
-
 	.nav {
 		bottom: 31px;
-		left: 620px;
+		left: 25px;
 	}
 
 }
 
-/*----------- Lrg. 1045px------*/
 
-@media only screen and (min-width: 64em) {
-
-	.nav {
-		bottom: 31px;
-		left: 700px;
-	}
-
-}
 
 /*----------- Lrg. 1160px ------*/
 
