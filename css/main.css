@@ -30,6 +30,7 @@ background-color: rgba(145, 178, 211, .10);
 
 .banner-div {
 	position: relative;
+	background-color: rgba(145, 178, 211, .75);
 }
 
 .banner-content {
