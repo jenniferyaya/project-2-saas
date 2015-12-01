@@ -194,21 +194,6 @@ a {
 
 @media only screen and (min-width: 53em) {
 
-	.nav {
-		bottom: 31px;
-		left: 445px;
-	}
-
-}
-
-/*----------- Med. 879px -----*/
-
-@media only screen and (min-width: 54em) {
-
-	html {
-		font-size: 120%;
-	}
-
 		.nav-label {
 		display: none;
 	}
@@ -227,6 +212,17 @@ a {
 	.nav {
 		bottom: 31px;
 		left: 25px;
+	}
+
+
+}
+
+/*----------- Med. 879px -----*/
+
+@media only screen and (min-width: 54em) {
+
+	html {
+		font-size: 120%;
 	}
 
 }
