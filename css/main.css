@@ -20,8 +20,35 @@ font: normal 100%/1.3 Signika, sans-serif;
 	color: #363436;
 }
 
+.box-b {
+	background-color: rgba(145, 178, 211, .18);
+}
 
-/*----- Banner -----*/
+/*------ Forms --------*/
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input + label {
+	display: inline;
+}
+
+input {
+	color: #000;
+	border: 1px solid rgba(145, 178, 211, .75);
+}
+
+.input-m {
+	width: 50%;
+}
+
+.input-2 {
+	width: 150%;
+}
+
+/*----- Banner  and Navigation-----*/
 
 .banner-div {
 	position: relative;
@@ -33,6 +60,19 @@ font: normal 100%/1.3 Signika, sans-serif;
 	top: 90px;
 }
 
+h1 {
+	margin-bottom: 0;
+}
+
+nav {
+	position: relative;
+	bottom: 37px;
+}
+
+a {
+	text-decoration: none;
+}
+
 
 /*-------- Logo  ----------*/
 
@@ -40,76 +80,7 @@ font: normal 100%/1.3 Signika, sans-serif;
 	width: 25%;
 }
 
-/*-----Toggle Navigation -------*/
-
-.nav {
-	display: none;
-}
-
-.nav-check{
-	position: absolute;
-	top: -3em;
-}
-
-.nav-check:checked ~ .nav {
-	display: block;
-}
-
-.nav-label {
-	display: inline-block;
-	position: absolute;
-	right: 0px;
-	top: 30px;
-	width: 50px;
-}
-
-.nav-open,
-.nav-close {
-	display: block;
-	width: 100%;
-}
-
-.nav-close {
-	display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-	display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-	display: block;
-}
-
-.nav {
-	display: none;
-	z-index: 10;
-	position: absolute;
-	left: 0px;
-	width: 100%;
-	background-color: #fff;
-}
-
-nav ul {
-	float: right;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-}
-.nav a:hover {
-	color: #91b2d3;
-}
-
-.nav-check:checked ~ .nav {
-	display: block;
-}
-
-
-
 /*----- Social Media Buttons -------*/
-
 
 .i-facebook {
 	background-image: url("../img/facebook.svg");
@@ -137,7 +108,7 @@ a {
 @media only screen and (min-width: 14em) {
 
 	html {
-		font-size: 70%;
+		font-size: 80%;
 	}
 
 	h2 {
@@ -154,12 +125,22 @@ a {
 		bottom: 70px;
 	}
 
-		.hero-btn {
+	.hero-btn {
 		margin: 0;
 		padding-top: 0;
 		position: relative;
 		bottom: 50px;
 	}
+
+	nav {
+		bottom: 20px;
+		left: 12px;
+	}
+
+	.hero-p {
+			bottom: 92px;
+		}
+
 }
 
 
@@ -168,134 +149,169 @@ a {
 @media only screen and (min-width: 20em) {
 
 	html {
-		font-size: 90%;
+		font-size: 100%;
+	}
+
+	nav {
+		bottom: 32px;
+		left: 24px;
 	}
 
 }
 
-/*----------- Med. 672px The Base ------*/
 
-@media only screen and (min-width: 42em) {
+/*----------- Med. 608px ------*/
+
+@media only screen and (min-width: 38em) {
 
 	html {
 		font-size: 110%;
 	}
 
+	nav {
+		bottom: 34px;
+		left: 272px;
+	}
+
+}
+
+
+
+/*----------- Med. 680px The Base ------*/
+
+@media only screen and (min-width: 41em) {
 
 	h1 {
 		margin: 0;
 		padding-top: 0;
 	}
 
+	nav {
+		left: 304px;
+	}
+
+}
+
+/*----------- Med. 760px The Base ------*/
+
+@media only screen and (min-width: 46em) {
+
+	nav {
+		left: 344px;
+	}
+
 }
 
 
-/*----------- Med. 844px -----*/
+/*----------- Med. 860px -----*/
 
-@media only screen and (min-width: 53em) {
+@media only screen and (min-width: 52em) {
 
-		.nav-label {
-		display: none;
-	}
-
-	.nav {
-		display: inline-block;
-		position: relative;
-		bottom: 31px;
-		left: 45px;
-	}
-
-	.nav-li {
-		float: left;
-	}
-
-	.nav {
-		bottom: 31px;
-		left: 25px;
-	}
+	nav {
+		left: 400px;
 
 
 }
 
-/*----------- Med. 879px -----*/
+/*----------- Large. 900px -----*/
 
-@media only screen and (min-width: 54em) {
+@media only screen and (min-width: 55em) {
 
 	html {
 		font-size: 120%;
 	}
 
+	nav {
+		left: 320px;
+	}
+
 }
 
+/*----------- Lrg. 940px -----*/
 
+@media only screen and (min-width: 57em) {
 
-/*----------- Lrg. 1160px ------*/
+	nav {
+		left: 480px;
+
+}
+
+/*----------- Lrg. 960px -----*/
+
+@media only screen and (min-width: 59em) {
+
+	nav {
+		left: 600px;
+
+}
+
+/*----------- Lrg. 1030px -----*/
+
+@media only screen and (min-width: 59em) {
+
+	nav {
+		left: 648px;
+
+}
+
+/*----------- Lrg. 1060px -----*/
+
+@media only screen and (min-width: 65em) {
+
+	nav {
+		left: 688px;
+
+}
+
+/*----------- Lrg. 1160px -----*/
 
 @media only screen and (min-width: 71em) {
 
-	.nav {
-		bottom: 31px;
-		left: 750px;
+	nav {
+		left: 728px;
+
+}
+
+
+/*----------- Lrg. 1240px ------*/
+
+@media only screen and (min-width: 76em) {
+
+	nav {
+		left: 788px;
+	}
+
+}
+
+/*----------- Lrg. 1290px ------*/
+
+@media only screen and (min-width: 79em) {
+
+	nav {
+		left: 808px;
 	}
 
 }
 
 
-/*----------- Lrg. 1260px ------*/
-
-@media only screen and (min-width: 77em) {
-
-	.nav {
-		bottom: 31px;
-		left: 805px;
-	}
-
-}
-
-
-/*----------- Lrg. 1320px ------*/
+/*----------- Lrg. 1370px ------*/
 
 @media only screen and (min-width: 82em) {
-
-	.nav {
-		bottom: 31px;
-		left: 855px;
+	nav {
+		left: 868px;
 	}
+
 
 }
 
-
-/*----------- Lrg. 1330px ------*/
-
-@media only screen and (min-width: 83em) {}
-
-	.nav {
-		bottom: 31px;
-		left: 900px;
-	}
-
-}
-
-
-
-/*----------- Lrg. 1360px ------*/
-
-@media only screen and (min-width: 85em) {}
-
-	.nav {
-		bottom: 31px;
-		left: 990px;
-	}
-
-}
 
 /*----------- Lrg. 1430px ------*/
 
 @media only screen and (min-width: 88em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1020px;
+
+	nav {
+		left: 900px;
 	}
 
 }
@@ -304,10 +320,8 @@ a {
 
 @media only screen and (min-width: 91em) {
 
-
-	.nav {
-		bottom: 31px;
-		left: 1030px;
+	nav {
+		left: 968px;
 	}
 
 }
@@ -316,31 +330,19 @@ a {
 
 @media only screen and (min-width: 95em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1120px;
+	nav {
+		left: 1000px;
 	}
 
 }
 
-/*----------- Lrg. 1570px ------*/
-
-@media only screen and (min-width: 98em) {
-
-	.nav {
-		bottom: 31px;
-		left: 1190px;
-	}
-
-}
 
 /*----------- Lrg. 1690px ------*/
 
 @media only screen and (min-width: 98em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1290px;
+	nav {
+		left: 1020px;
 	}
 
 }
@@ -350,9 +352,8 @@ a {
 
 @media only screen and (min-width: 107em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1350px;
+	nav {
+		left: 1088px;
 	}
 
 }
@@ -362,9 +363,8 @@ a {
 
 @media only screen and (min-width: 112em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1450px;
+	nav {
+		left: 1108px;
 	}
 
 }
@@ -373,9 +373,8 @@ a {
 
 @media only screen and (min-width: 119em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1550px;
+	nav {
+		left: 1168px;
 	}
 
 }
@@ -384,10 +383,10 @@ a {
 
 @media only screen and (min-width: 127em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1650px;
+	nav {
+		left: 1208px;
 	}
+
 
 }
 
@@ -395,10 +394,10 @@ a {
 
 @media only screen and (min-width: 131em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1750px;
+	nav {
+		left: 1268px;
 	}
+
 
 }
 
@@ -406,10 +405,10 @@ a {
 
 @media only screen and (min-width: 133em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1800px;
+	nav {
+		left: 1288px;
 	}
+
 
 }
 
@@ -417,10 +416,10 @@ a {
 
 @media only screen and (min-width: 133em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1860px;
+	nav {
+		left: 1308px;
 	}
+
 
 }
 
@@ -429,9 +428,8 @@ a {
 
 @media only screen and (min-width: 139em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1930px;
+	nav {
+		left: 1368px;
 	}
 
 }
@@ -440,9 +438,8 @@ a {
 
 @media only screen and (min-width: 142em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1950px;
+	nav {
+		left: 1388px;
 	}
 
 }
@@ -452,10 +449,8 @@ a {
 /*----------- Lrg. 2320px ------*/
 
 @media only screen and (min-width: 144em) {
-
-	.nav {
-		bottom: 31px;
-		left: 1980px;
+	nav {
+		left: 1408px;
 	}
 
 }
@@ -464,11 +459,9 @@ a {
 
 @media only screen and (min-width: 145em) {
 
-	.nav {
-		bottom: 31px;
-		left: 1990px;
+	nav {
+		left: 1468px;
 	}
-
 }
 
 
@@ -477,9 +470,8 @@ a {
 
 @media only screen and (min-width: 148em) {
 
-	.nav {
-		bottom: 31px;
-		left: 2005px;
+	nav {
+		left: 1488px;
 	}
 
 }
@@ -489,9 +481,8 @@ a {
 
 @media only screen and (min-width: 150em) {
 
-	.nav {
-		bottom: 31px;
-		left: 2000px;
+	nav {
+		left: 1508px;
 	}
 
 }
@@ -501,10 +492,8 @@ a {
 
 @media only screen and (min-width: 152em) {
 
-
-	.nav {
-		bottom: 31px;
-		left: 2020px;
+	nav {
+		left: 1568px;
 	}
 
 }
@@ -513,11 +502,10 @@ a {
 
 @media only screen and (min-width: 153em) {
 
-
-	.nav {
-		bottom: 31px;
-		left: 2120px;
+	nav {
+		left: 1588px;
 	}
+
 
 }
 
