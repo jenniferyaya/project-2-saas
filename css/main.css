@@ -148,7 +148,7 @@ a {
 		}
 
 		.img-circle {
-			width: 25% auto;
+			width: 25%;
 		}
 
 		.banner-type {
@@ -369,7 +369,7 @@ a {
 
 	nav {
 		left: 655px;
-
+	}
 }
 
 /*----------- Lrg. 1160px -----*/
@@ -662,6 +662,16 @@ a {
 /*----------- Print view ------*/
 
 @media print {
+
+.header, .copy {
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+	padding-left: 0;
+}
+
 
 
 }
