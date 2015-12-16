@@ -62,7 +62,6 @@ input {
 
 .banner-content {
 	position: absolute;
-	top: 90px;
 }
 
 h1 {
@@ -123,18 +122,20 @@ a {
 		bottom: 80px;
 	}
 
-	.hero-h3 {
-		margin: 0;
-		padding-top: 0;
+	.hmpage-banner-type {
 		position: relative;
-		bottom: 80px;
+		top: -70px;
+		padding-top: 0;
+	}
+
+	.hero-h3 {
+		position: relative;
+		top: -75px;
 	}
 
 	.hero-btn {
-		margin: 0;
-		padding-top: 0;
 		position: relative;
-		bottom: 75px;
+		top: -85px;
 	}
 
 	nav {
@@ -150,6 +151,10 @@ a {
 			width: 25% auto;
 		}
 
+		.banner-type {
+			position: relative;
+			top: -40px;
+		}
 
 }
 
@@ -158,26 +163,12 @@ a {
 
 @media only screen and (min-width: 18em) {
 
-
-	.hero-btn {
-		position: relative;
-		bottom: 35px;
-}
-
-	.hero-h3 {
-		position: relative;
-		bottom: 60px;
-	}
-
-	h2 {
-		position: relative;
-		bottom: 70px;
-	}
-
+		.banner-type {
+			position: relative;
+			top: -50px;
+		}
 
 }
-
-
 
 
 /*----------- Sml. 320px ------*/
@@ -193,22 +184,16 @@ a {
 		left: 24px;
 	}
 
-	.hero-btn {
-		position: relative;
-		bottom: 65px;
-}
-
-	.hero-h3 {
-		position: relative;
-		bottom: 80px;
+	.hmpage-banner-type {
+		top: -110px;
 	}
 
-	h2 {
-		position: relative;
-		bottom: 85px;
+	.banner-type {
+		top: -75px;
 	}
 
 }
+
 
 /*----------- Med. 410px ------*/
 @media only screen and (min-width: 24em) {
@@ -217,67 +202,23 @@ a {
 		left: 24px;
 	}
 
-	.hero-btn {
-		position: relative;
-		bottom: 5px;
-}
-
-	.hero-h3 {
-		position: relative;
-		bottom: 30px;
-	}
-
-	h2 {
-		position: relative;
-		bottom: 35px;
+	.banner-type {
+		top: -105px;
 	}
 
 }
 
-
-/*----------- Med. 480px ------*/
+/*----------- Med. 525px ------*/
 @media only screen and (min-width: 30em) {
 
-	.hero-btn {
-		position: relative;
-		bottom: 15px;
-}
-
-	.hero-h3 {
-		position: relative;
-		bottom: 30px;
+	.hmpage-banner-type {
+		top: -165px;
 	}
 
-	h2 {
-		position: relative;
-		bottom: 35px;
+	.banner-type {
+		top: -155px;
 	}
 }
-
-
-/*----------- Med. 550px ------*/
-@media only screen and (min-width: 33em) {
-
-	.hero-btn {
-		position: relative;
-		top: 25px;
-}
-
-	.hero-h3 {
-		position: relative;
-		top: 0px;
-	}
-
-	h2 {
-		position: relative;
-		bottom: 15px;
-	}
-}
-
-
-
-
-
 
 
 /*----------- Med. 608px ------*/
@@ -297,9 +238,15 @@ a {
 		width: 100%;
 	}
 
+	.hmpage-banner-type {
+		top: -285px;
+	}
+
+	.banner-type {
+		top: -185px;
+	}
+
 }
-
-
 
 /*----------- Med. 680px The Base ------*/
 
@@ -314,7 +261,12 @@ a {
 		left: 304px;
 	}
 
+	.banner-type {
+		top: -225px;
+	}
+
 }
+
 
 /*----------- Med. 760px The Base ------*/
 
@@ -323,6 +275,11 @@ a {
 	nav {
 		left: 344px;
 	}
+
+	.banner-type {
+		top: -260px;
+	}
+
 
 }
 
@@ -333,7 +290,15 @@ a {
 
 	nav {
 		left: 400px;
+	}
 
+	.hmpage-banner-type {
+		top: -300px;
+	}
+
+	.banner-type {
+		top: -285px;
+	}
 
 }
 
@@ -356,25 +321,45 @@ a {
 @media only screen and (min-width: 57em) {
 
 	nav {
-		left: 480px;
+		left: 445px;
+	}
+
+	.hmpage-banner-type {
+		top: -340px;
+	}
+
+	.banner-type {
+		top: -315px;
+	}
 
 }
 
 /*----------- Lrg. 960px -----*/
 
-@media only screen and (min-width: 59em) {
+@media only screen and (min-width: 60em) {
 
 	nav {
-		left: 600px;
+		left: 550px;
+	}
+
+	.hmpage-banner-type {
+		top: -440px;
+	}
+
+	.banner-type {
+		top: -355px;
+	}
 
 }
+
 
 /*----------- Lrg. 1030px -----*/
 
 @media only screen and (min-width: 59em) {
 
 	nav {
-		left: 648px;
+		left: 570px;
+	}
 
 }
 
@@ -383,7 +368,7 @@ a {
 @media only screen and (min-width: 65em) {
 
 	nav {
-		left: 688px;
+		left: 655px;
 
 }
 
@@ -393,6 +378,11 @@ a {
 
 	nav {
 		left: 728px;
+	}
+
+	.banner-type {
+		top: -455px;
+	}
 
 }
 
@@ -415,6 +405,10 @@ a {
 		left: 808px;
 	}
 
+	.banner-type {
+		top: -475px;
+	}
+
 }
 
 
@@ -425,6 +419,9 @@ a {
 		left: 868px;
 	}
 
+	.hmpage-banner-type {
+		top: -500px;
+	}
 
 }
 
@@ -438,6 +435,9 @@ a {
 		left: 900px;
 	}
 
+	.banner-type {
+		top: -515px;
+	}
 }
 
 /*----------- Lrg. 1470px ------*/
@@ -448,16 +448,26 @@ a {
 		left: 968px;
 	}
 
+	.hmpage-banner-type {
+		top: -675px;
+	}
 }
 
 /*----------- Lrg. 1520px ------*/
 
-@media only screen and (min-width: 95em) {
+@media only screen and (min-width: 94em) {
 
 	nav {
 		left: 1000px;
 	}
 
+	.banner-type {
+		top: -565px;
+	}
+
+	.hmpage-banner-type {
+		top: -675px;
+	}
 }
 
 
@@ -478,6 +488,14 @@ a {
 
 	nav {
 		left: 1088px;
+	}
+
+	.banner-type {
+		top: -605px;
+	}
+
+	.hmpage-banner-type {
+		top: -775px;
 	}
 
 }
@@ -511,6 +529,13 @@ a {
 		left: 1208px;
 	}
 
+	.banner-type {
+		top: -865px;
+	}
+
+	.hmpage-banner-type {
+		top: -875px;
+	}
 
 }
 
