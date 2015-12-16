@@ -663,42 +663,6 @@ a {
 
 @media print {
 
-	.banner-img {
-		display: none;
-	}
 
-	.hero-type {
-		color: #000;
-		position: relative;
-		bottom: 210px;
-		left: 180px;
-	}
-
-	.text-center {
-		text-align: left;
-	}
-
-	.nav-label {
-		display: none;
-	}
-
-	.btn {
-		display: none;
 }
 
-	.img-flex {
-		display: none;
-}
-
-	.header {
-		color: #000;
-	}
-
-	.copy {
-		color: #000;
-	}
-
-	.footer-p {
-		display: none;
-	}
-}
