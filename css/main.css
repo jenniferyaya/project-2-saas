@@ -127,14 +127,14 @@ a {
 		margin: 0;
 		padding-top: 0;
 		position: relative;
-		bottom: 70px;
+		bottom: 80px;
 	}
 
 	.hero-btn {
 		margin: 0;
 		padding-top: 0;
 		position: relative;
-		bottom: 50px;
+		bottom: 75px;
 	}
 
 	nav {
@@ -146,7 +146,38 @@ a {
 			bottom: 92px;
 		}
 
+		.img-circle {
+			width: 25% auto;
+		}
+
+
 }
+
+
+/*----------- Sml. 303px ------*/
+
+@media only screen and (min-width: 18em) {
+
+
+	.hero-btn {
+		position: relative;
+		bottom: 35px;
+}
+
+	.hero-h3 {
+		position: relative;
+		bottom: 60px;
+	}
+
+	h2 {
+		position: relative;
+		bottom: 70px;
+	}
+
+
+}
+
+
 
 
 /*----------- Sml. 320px ------*/
@@ -162,7 +193,91 @@ a {
 		left: 24px;
 	}
 
+	.hero-btn {
+		position: relative;
+		bottom: 65px;
 }
+
+	.hero-h3 {
+		position: relative;
+		bottom: 80px;
+	}
+
+	h2 {
+		position: relative;
+		bottom: 85px;
+	}
+
+}
+
+/*----------- Med. 410px ------*/
+@media only screen and (min-width: 24em) {
+	nav {
+		bottom: 32px;
+		left: 24px;
+	}
+
+	.hero-btn {
+		position: relative;
+		bottom: 5px;
+}
+
+	.hero-h3 {
+		position: relative;
+		bottom: 30px;
+	}
+
+	h2 {
+		position: relative;
+		bottom: 35px;
+	}
+
+}
+
+
+/*----------- Med. 480px ------*/
+@media only screen and (min-width: 30em) {
+
+	.hero-btn {
+		position: relative;
+		bottom: 15px;
+}
+
+	.hero-h3 {
+		position: relative;
+		bottom: 30px;
+	}
+
+	h2 {
+		position: relative;
+		bottom: 35px;
+	}
+}
+
+
+/*----------- Med. 550px ------*/
+@media only screen and (min-width: 33em) {
+
+	.hero-btn {
+		position: relative;
+		top: 25px;
+}
+
+	.hero-h3 {
+		position: relative;
+		top: 0px;
+	}
+
+	h2 {
+		position: relative;
+		bottom: 15px;
+	}
+}
+
+
+
+
+
 
 
 /*----------- Med. 608px ------*/
@@ -176,6 +291,10 @@ a {
 	nav {
 		bottom: 34px;
 		left: 272px;
+	}
+
+	.img-circle {
+		width: 100%;
 	}
 
 }
