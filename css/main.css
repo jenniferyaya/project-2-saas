@@ -672,7 +672,9 @@ h3 {
 	padding-left: 0;
 }
 
-
+a.header::after {
+	content: none;
+}
 
 }
 
